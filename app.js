@@ -42,7 +42,7 @@ app.post("/", function(req, res){
 
     const options = {
       method: "POST",
-      auth: "enes:0c4fbeaacaa0a990a7555805ab64fc2d-us4"
+      auth: "enes:<Mailchimp API Key Goes Here>"
     }
 
     const request = https.request(url, options, function(response){
@@ -71,6 +71,3 @@ app.listen(process.env.PORT || 3000, function() {
 });
 
 
-//0c4fbeaacaa0a990a7555805ab64fc2d-us4
-
-//ecfd9f5e73
